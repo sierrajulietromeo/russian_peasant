@@ -1,7 +1,5 @@
-numberList1 = []
-numberList2 = []
+numberList1, numberList2 = [], []
 grandTotal = 0
-
 
 def inputNumber(message):
   while True:
@@ -13,7 +11,6 @@ def inputNumber(message):
     else:
        return userInput 
        break 
-
 
 print("The Russian peasant algorithm")
 print()
